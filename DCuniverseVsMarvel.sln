@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCuniverseVsMarvel", "DCuniverseVsMarvel\DCuniverseVsMarvel.csproj", "{716EA276-41AE-4AEF-BDCA-F6C29273854A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716EA276-41AE-4AEF-BDCA-F6C29273854A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716EA276-41AE-4AEF-BDCA-F6C29273854A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716EA276-41AE-4AEF-BDCA-F6C29273854A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716EA276-41AE-4AEF-BDCA-F6C29273854A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD726495-2BCE-48A4-BD77-4CA254AD0276}
+	EndGlobalSection
+EndGlobal
