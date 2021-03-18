@@ -1,0 +1,58 @@
+﻿body {
+    background: #bdbdbd;
+    margin: 0;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: red;
+}
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#header {
+    height: 3em;
+    background: #262626;
+}
+#logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+    width:auto;
+}
+#logo a{
+    color:aliceblue;
+}
+#nav-login {
+    margin-left: auto;
+    padding-right: 20px;
+    justify-content: flex-end;
+    width: auto;
+    color: aliceblue;
+}
+#nav-login li{
+    display:inline;
+}
+#main-container {
+    justify-content: center;
+}
+#main-content {
+    padding-top: 5em;
+    background-color: #add5f7;
+}
+#main-content li {
+    display: inline;
+}
+.card-content{
+    display:block;
+    height:250px;
+    width:130px;
+    padding:20px;
+}

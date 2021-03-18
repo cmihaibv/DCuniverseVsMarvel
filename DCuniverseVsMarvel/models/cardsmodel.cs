@@ -12,5 +12,21 @@ namespace DCuniverseVsMarvel.models
         public int cardDamage { get; set; }
         public int cardHealth { get; set; }
         public int cardCost { get; set; }
+
+
+
+        /*  public string name;
+        public int damage;
+        public int health;
+        public int cost;
+        public cardsmodel(string cardName, int cardDamage, int cardHealth, int cardCost)
+        {
+            name = cardName;
+            damage = cardDamage;
+            health = cardHealth;
+            cost = cardCost;
+        }*/
+
     }
+
 }

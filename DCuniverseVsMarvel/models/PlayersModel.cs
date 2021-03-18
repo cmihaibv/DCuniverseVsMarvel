@@ -7,7 +7,6 @@ namespace DCuniverseVsMarvel.models
 {
     public class PlayersModel
     {
-        public int id { get; set; }
         public List<PlayerModel> selectedPlayers { get; set; } = new List<PlayerModel> ();
     }
 }

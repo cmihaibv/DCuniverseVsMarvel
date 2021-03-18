@@ -7,7 +7,6 @@ namespace DCuniverseVsMarvel.models
 {
     public class PlayerModel
     {
-        public int id { get; set; }
         public string emailAddress { get; set; }
         public string userName { get; set; }
         public string userPassword { get; set; }

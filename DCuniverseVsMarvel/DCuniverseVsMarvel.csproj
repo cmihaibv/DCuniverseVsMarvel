@@ -67,7 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DBGame.mdf" />
+    <Content Include="App_Data\DBGame_log.ldf">
+      <DependentUpon>DBGame.mdf</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
+    <Content Include="web\css\main.css" />
+    <Content Include="web\index.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="models\cardsmodel.cs" />
@@ -77,6 +83,13 @@
     <Compile Include="models\PlayerModel.cs" />
     <Compile Include="models\PlayersModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="web\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -87,9 +100,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="web\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
