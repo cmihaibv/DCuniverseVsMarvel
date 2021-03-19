@@ -71,6 +71,7 @@
     <Content Include="App_Data\DBGame_log.ldf">
       <DependentUpon>DBGame.mdf</DependentUpon>
     </Content>
+    <Content Include="data\data.txt" />
     <Content Include="Web.config" />
     <Content Include="web\css\main.css" />
     <Content Include="web\index.aspx" />
